@@ -25,3 +25,25 @@ The lion looks healthy.</p>
 <h4>Objectives</h4>
 
 <p>For the second stage, you will need to develop an animal printer. Your program should display the animal identified in the code field.</p>
+
+<h4>Output </h4>
+
+<p>Switching on the camera in the camel habitat...
+ ___.-''''-.
+/___  @    |
+',,,,.     |         _.'''''''._
+     '     |        /           \
+     |     \    _.-'             \
+     |      '.-'                  '-.
+     |                               ',
+     |                                '',
+      ',,-,                           ':;
+           ',,| ;,,                 ,' ;;
+              ! ; !'',,,',',,,,'!  ;   ;:
+             : ;  ! !       ! ! ;  ;   :;
+             ; ;   ! !      ! !  ; ;   ;,
+            ; ;    ! !     ! !   ; ;
+            ; ;    ! !    ! !     ; ;
+           ;,,      !,!   !,!     ;,;
+           /_I      L_I   L_I     /_I
+Look at that! Our little camel is sunbathing!</p>
