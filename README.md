@@ -28,7 +28,7 @@ The lion looks healthy.</p>
 
 <h4>Output </h4>
 
-<p>Switching on the camera in the camel habitat...
+<pre>Switching on the camera in the camel habitat...
  ___.-''''-.
 /___  @    |
 ',,,,.     |         _.'''''''._
@@ -46,4 +46,49 @@ The lion looks healthy.</p>
             ; ;    ! !    ! !     ; ;
            ;,,      !,!   !,!     ;,;
            /_I      L_I   L_I     /_I
-Look at that! Our little camel is sunbathing!</p>
+Look at that! Our little camel is sunbathing!</pre>
+
+<h2>3. Show where animals live</h2>
+
+<p>The third stage requires you to increase the capabilities of your software. Now it should be able to recognize the number of a specific habitat from the input and show the animals living there.
+
+Add all of the variables from the template to a single variable with the list type. The order of variables matters: they must appear on the list in the order in which they're defined in the code. The list must contain all of the variables with no duplicates.</p>
+
+<h4>Objectives</h4>
+
+<pre>In this stage your program should:
+
+Ask for the number of the desired habitat using the following phrase: Please enter the number of the habitat you would like to view:
+
+Use the input number as an index of your habitats to print its content. The indexes are: Camel – 0, Lion – 1, Deer – 2 Goose – 3, Bat – 4, Rabbit – 5.
+
+End with the following phrase:</pre>
+
+<h4>Output</h4>
+
+<pre>Please enter the number of the habitat you would like to view: > 5
+
+Switching on the camera in the rabbit habitat...
+         ,
+        /|      __
+       / |   ,-~ /
+      Y :|  //  /
+      | jj /( .^
+      >-"~"-v"
+     /       Y
+    jo  o    |
+   ( ~T~     j
+    >._-' _./
+   /   "~"  |
+  Y     _,  |
+ /| ;-"~ _  l
+/ l/ ,-"~    \
+\//\/      .- \
+ Y        /    Y
+ l       I     !
+ ]\      _\    /"\
+(" ~----( ~   Y.  )
+It looks like we will soon have more rabbits!
+---
+You've reached the end of the program. To check another habitat, please restart the watcher.</pre>
+
