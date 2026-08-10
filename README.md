@@ -12,11 +12,11 @@
 
 <h4>Output</h4>
 
-<p>I love animals!
+<pre>I love animals!
 Let's check on the animals...
 The deer looks fine.
 The bat looks happy.
-The lion looks healthy.</p>
+The lion looks healthy.</pre>
 
 <h2>2. Printing the image of an animal </h2>
 
