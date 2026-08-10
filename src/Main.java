@@ -9,10 +9,16 @@ public class Main {
 //        Print an image of the animal
         PrintImageOfAnimal printImageOfAnimal = new PrintImageOfAnimal();
 
-        System.out.print("Please enter the number of the habitat you would like to view(1 to 6):");
         Scanner scanner = new Scanner(System.in);
-            int view = scanner.nextInt();
-            switch (view) {
+        while(true) {
+            System.out.print("Please enter the number of the habitat you would like to view(1 to 6):");
+            String view = scanner.nextLine();
+            if(view.equalsIgnoreCase("exit")){
+                System.out.println("See you later");
+                break;
+            }
+            int check = Integer.parseInt(view);
+            switch (check) {
                 case 1:
                     System.out.println(printImageOfAnimal.printCamel());
                     break;
@@ -34,7 +40,7 @@ public class Main {
                 default:
                     System.out.println("Write a 1-6 view of camera...");
             }
-            System.out.println("You have reached the end of the program. To check another habitat, please restart the watcher.");
-
+//            System.out.println("You have reached the end of the program. To check another habitat, please restart the watcher.");
+        }
     }
 }
